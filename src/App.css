@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+#domMap {
+  height: 100vh;
+}
+
+.bus-list-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  height: 100vh;
+  width: 100%;
+}
+
+.bus-list-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.bus-list-div {
+  background: #FFFFFF;
+  width: 80%;
+  margin: 0 auto;
+  height: 50vh;
+  position: relative;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.list-item-container {
+ overflow-y: scroll;
+ max-height: 150px;
+ border: 1px solid; 
+}
